@@ -4,7 +4,6 @@ version: 2.1.0+1
 homepage: https://github.com/llfbandit/record
 
 environment:
-  sdk: ">=2.7.0 <3.0.0"
   flutter: ">=2.0.0"
 
 dependencies:
