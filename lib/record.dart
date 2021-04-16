@@ -19,7 +19,7 @@ class Record {
   /// [bitRate]: The audio encoding bit rate in bits per second.
   /// [samplingRate]: The sampling rate for audio in samples per second.
   static Future<void> start({
-    required String path,
+    String path,
     AudioEncoder encoder = AudioEncoder.AAC,
     int bitRate = 128000,
     double samplingRate = 44100.0,
